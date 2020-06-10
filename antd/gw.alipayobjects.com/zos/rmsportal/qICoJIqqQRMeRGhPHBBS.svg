@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="375px" height="691px" viewBox="0 0 375 691" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 6</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="375" height="691"></rect>
+    </defs>
+    <g id="AntDesign-移动端" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0.000000, -3028.000000)">
+        <g id="Group-6" transform="translate(0.000000, 3028.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Rectangle-3-Copy-5" fill="#EDF1F5" opacity="0.869169776" xlink:href="#path-1"></use>
+            <rect id="Rectangle-33" fill="#EBEDF0" mask="url(#mask-2)" transform="translate(446.132034, 629.132034) rotate(45.000000) translate(-446.132034, -629.132034) " x="296.132034" y="479.132034" width="300" height="300" rx="1"></rect>
+            <circle id="Oval-13" stroke="#EBEDF0" stroke-width="16" mask="url(#mask-2)" cx="376" cy="42" r="70"></circle>
+            <circle id="Oval-13" fill="#EBEDF0" mask="url(#mask-2)" cx="-0.5" cy="416.5" r="98.5"></circle>
+        </g>
+    </g>
+</svg>
