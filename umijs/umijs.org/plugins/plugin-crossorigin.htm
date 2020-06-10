@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset=utf-8"utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"
+    />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://img.alicdn.com/tfs/TB1YHEpwUT1gK0jSZFhXXaAtVXa-28-27.svg"
+    />
+    <link rel="stylesheet" href="../umi.css" tppabs="https://umijs.org/umi.css" />
+    <script>
+      window.routerBase = "/";
+    </script>
+    <script>
+      //! umi version: 3.2.3
+    </script>
+    <title>@umijs/plugin-crossorigin</title>
+  </head>
+  <body>
+    <div id="root"><div class="__dumi-default-layout" data-show-sidemenu="true" data-show-slugs="true" data-site-mode="true" data-gapless="false"><div class="__dumi-default-navbar" data-mode="site"><button class="__dumi-default-navbar-toggle"></button><a class="__dumi-default-navbar-logo" href="../index.htm" tppabs="https://umijs.org/">UmiJS</a><nav><div class="__dumi-default-search"><input type="search" class="__dumi-default-search-input" value=""/><ul></ul></div><a href="../docs.htm" tppabs="https://umijs.org/docs">Docs</a><a href="../config.htm" tppabs="https://umijs.org/config">Config</a><a href="../api.htm" tppabs="https://umijs.org/api">API</a><a href="../guide.htm" tppabs="https://umijs.org/guide">Guide</a><a aria-current="page" class="active" href="../plugins.htm" tppabs="https://umijs.org/plugins">Plugins</a><a target="_blank" href="javascript:if(confirm('https://v2.umijs.org/  \n\n¸ÃÎÄ¼şÎŞ·¨ÓÃ Teleport Ultra ÏÂÔØ, ÒòÎª ËüÊÇÒ»¸öÓò»òÂ·¾¶Íâ²¿±»ÉèÖÃÎªËüµÄÆôÊ¼µØÖ·µÄµØÖ·¡£  \n\nÄãÏëÔÚ·şÎñÆ÷ÉÏ´ò¿ªËü?'))window.location='https://v2.umijs.org/'" tppabs="https://v2.umijs.org/">v2.x<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="__dumi-default-external-link-icon"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a><a target="_blank" href="javascript:if(confirm('https://github.com/umijs/umi  \n\n¸ÃÎÄ¼şÎŞ·¨ÓÃ Teleport Ultra ÏÂÔØ, ÒòÎª ËüÊÇÒ»¸öÓò»òÂ·¾¶Íâ²¿±»ÉèÖÃÎªËüµÄÆôÊ¼µØÖ·µÄµØÖ·¡£  \n\nÄãÏëÔÚ·şÎñÆ÷ÉÏ´ò¿ªËü?'))window.location='https://github.com/umijs/umi'" tppabs="https://github.com/umijs/umi">GitHub<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="__dumi-default-external-link-icon"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a><div class="__dumi-default-locale-select" data-locale-count="2"><span>ä¸­æ–‡</span></div></nav></div><div class="__dumi-default-menu" data-mode="site"><div class="__dumi-default-menu-inner"><div class="__dumi-default-menu-header"><a class="__dumi-default-menu-logo" href="../index.htm" tppabs="https://umijs.org/"></a><h1>UmiJS</h1><p></p></div><div class="__dumi-default-menu-mobile-area"><ul class="__dumi-default-menu-nav-list"><li><a href="../docs.htm" tppabs="https://umijs.org/docs">Docs</a></li><li><a href="../config.htm" tppabs="https://umijs.org/config">Config</a></li><li><a href="../api.htm" tppabs="https://umijs.org/api">API</a></li><li><a href="../guide.htm" tppabs="https://umijs.org/guide">Guide</a></li><li><a aria-current="page" class="active" href="../plugins.htm" tppabs="https://umijs.org/plugins">Plugins</a></li><li><a target="_blank" href="javascript:if(confirm('https://v2.umijs.org/  \n\n¸ÃÎÄ¼şÎŞ·¨ÓÃ Teleport Ultra ÏÂÔØ, ÒòÎª ËüÊÇÒ»¸öÓò»òÂ·¾¶Íâ²¿±»ÉèÖÃÎªËüµÄÆôÊ¼µØÖ·µÄµØÖ·¡£  \n\nÄãÏëÔÚ·şÎñÆ÷ÉÏ´ò¿ªËü?'))window.location='https://v2.umijs.org/'" tppabs="https://v2.umijs.org/">v2.x<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="__dumi-default-external-link-icon"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li><a target="_blank" href="javascript:if(confirm('https://github.com/umijs/umi  \n\n¸ÃÎÄ¼şÎŞ·¨ÓÃ Teleport Ultra ÏÂÔØ, ÒòÎª ËüÊÇÒ»¸öÓò»òÂ·¾¶Íâ²¿±»ÉèÖÃÎªËüµÄÆôÊ¼µØÖ·µÄµØÖ·¡£  \n\nÄãÏëÔÚ·şÎñÆ÷ÉÏ´ò¿ªËü?'))window.location='https://github.com/umijs/umi'" tppabs="https://github.com/umijs/umi">GitHub<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="__dumi-default-external-link-icon"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul><div class="__dumi-default-locale-select" data-locale-count="2"><span>ä¸­æ–‡</span></div></div><ul class="__dumi-default-menu-list"><li><a>Presets</a><ul><li><a href="preset-react.htm" tppabs="https://umijs.org/plugins/preset-react"><span>@umijs/preset-react</span></a></li></ul></li><li><a>Plugins</a><ul><li><a href="plugin-access.htm" tppabs="https://umijs.org/plugins/plugin-access"><span>@umijs/plugin-access</span></a></li><li><a href="plugin-analytics.htm" tppabs="https://umijs.org/plugins/plugin-analytics"><span>@umijs/plugin-analytics</span></a></li><li><a href="plugin-antd.htm" tppabs="https://umijs.org/plugins/plugin-antd"><span>@umijs/plugin-antd</span></a></li><li><a aria-current="page" class="active" href="plugin-crossorigin.htm" tppabs="https://umijs.org/plugins/plugin-crossorigin"><span>@umijs/plugin-crossorigin</span></a></li><li><a href="plugin-dva.htm" tppabs="https://umijs.org/plugins/plugin-dva"><span>@umijs/plugin-dva</span></a></li><li><a href="plugin-esbuild.htm" tppabs="https://umijs.org/plugins/plugin-esbuild"><span>@umijs/plugin-esbuild</span></a></li><li><a href="plugin-helmet.htm" tppabs="https://umijs.org/plugins/plugin-helmet"><span>@umijs/plugin-helmet</span></a></li><li><a href="plugin-initial-state.htm" tppabs="https://umijs.org/plugins/plugin-initial-state"><span>@umijs/plugin-initial-state</span></a></li><li><a href="plugin-layout.htm" tppabs="https://umijs.org/plugins/plugin-layout"><span>@umijs/plugin-layout</span></a></li><li><a href="plugin-locale.htm" tppabs="https://umijs.org/plugins/plugin-locale"><span>@umijs/plugin-locale</span></a></li><li><a href="plugin-model.htm" tppabs="https://umijs.org/plugins/plugin-model"><span>@umijs/plugin-model</span></a></li><li><a href="plugin-preact.htm" tppabs="https://umijs.org/plugins/plugin-preact"><span>@umijs/plugin-preact</span></a></li><li><a href="plugin-qiankun.htm" tppabs="https://umijs.org/plugins/plugin-qiankun"><span>@umijs/plugin-qiankun</span></a></li><li><a href="plugin-request.htm" tppabs="https://umijs.org/plugins/plugin-request"><span>@umijs/plugin-request</span></a></li><li><a href="plugin-sass.htm" tppabs="https://umijs.org/plugins/plugin-sass"><span>@umijs/plugin-sass</span></a></li><li><a href="plugin-webpack-5.htm" tppabs="https://umijs.org/plugins/plugin-webpack-5"><span>@umijs/plugin-webpack-5</span></a></li></ul></li><li><a>Plugin Develop</a><ul><li><a href="api.htm" tppabs="https://umijs.org/plugins/api"><span>Plugin API</span></a></li><li><a href="test.htm" tppabs="https://umijs.org/plugins/test"><span>Plugin Test</span></a></li></ul></li></ul></div></div><ul class="__dumi-default-layout-toc" role="slug-list"><li title="å¯ç”¨æ–¹å¼" data-depth="2" class=""><a href="plugin-crossorigin.htm#å¯ç”¨æ–¹å¼" tppabs="https://umijs.org/plugins/plugin-crossorigin#å¯ç”¨æ–¹å¼"><span>å¯ç”¨æ–¹å¼</span></a></li><li title="é…ç½®" data-depth="2" class=""><a href="plugin-crossorigin.htm#é…ç½®" tppabs="https://umijs.org/plugins/plugin-crossorigin#é…ç½®"><span>é…ç½®</span></a></li></ul><div class="__dumi-default-layout-content"><div class="__dumi-default-alert">This article has not been translated yet. Want to help us out? Click the Edit this doc on GitHub at the end of the page.</div><div class="markdown"><h1 id="umijsplugin-crossorigin"><a aria-hidden="true" href="#umijsplugin-crossorigin"><span class="icon icon-link"></span></a>@umijs/plugin-crossorigin</h1><p>ä¸ºæ‰€æœ‰éä¸‰æ–¹è„šæœ¬åŠ ä¸Š <code>crossorigin=&quot;anonymous&quot;</code> å±æ€§ï¼Œé€šå¸¸ç”¨äºç»Ÿè®¡è„šæœ¬é”™è¯¯ã€‚</p><h2 id="å¯ç”¨æ–¹å¼"><a aria-hidden="true" href="#å¯ç”¨æ–¹å¼"><span class="icon icon-link"></span></a>å¯ç”¨æ–¹å¼</h2><p>é…ç½®å¼€å¯ã€‚</p><h2 id="é…ç½®"><a aria-hidden="true" href="#é…ç½®"><span class="icon icon-link"></span></a>é…ç½®</h2><ul><li>Type: <code>boolean</code></li><li>Default: <code>false</code></li></ul><p>æ¯”å¦‚ï¼š</p><div class="__dumi-default-code-block"><pre class="prism-code language-js"><button title="" type="button" class="__dumi-default-icon __dumi-default-btn-copy __dumi-default-code-block-copy-btn" data-clipboard-text="export default {
+  crossorigin: true,
+}
+" data-status="copy"></button><div class="token-line"><span class="token keyword module">export</span><span class="token plain"> </span><span class="token keyword module">default</span><span class="token plain"> </span><span class="token punctuation">{</span><span class="token plain"></span></div><div class="token-line"><span class="token plain">  crossorigin</span><span class="token punctuation">:</span><span class="token plain"> </span><span class="token boolean">true</span><span class="token punctuation">,</span><span class="token plain"></span></div><div class="token-line"><span class="token plain"></span><span class="token punctuation">}</span><span class="token plain"></span></div><div class="token-line"><span class="token plain"></span></div></pre></div></div><div class="__dumi-default-layout-footer-meta"><a target="_blank" href="javascript:if(confirm('https://github.com/umijs/umi/edit/master/docs/plugins/plugin-crossorigin.md  \n\n¸ÃÎÄ¼şÎŞ·¨ÓÃ Teleport Ultra ÏÂÔØ, ÒòÎª ËüÊÇÒ»¸öÓò»òÂ·¾¶Íâ²¿±»ÉèÖÃÎªËüµÄÆôÊ¼µØÖ·µÄµØÖ·¡£  \n\nÄãÏëÔÚ·şÎñÆ÷ÉÏ´ò¿ªËü?'))window.location='https://github.com/umijs/umi/edit/master/docs/plugins/plugin-crossorigin.md'" tppabs="https://github.com/umijs/umi/edit/master/docs/plugins/plugin-crossorigin.md">Edit this doc on GitHub<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="__dumi-default-external-link-icon"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a><span data-updated-text="Last Update: ">6/10/2020, 7:42:23 AM</span></div></div></div></div>
+	<script>
+  window.g_useSSR = true;
+  window.g_initialProps = {};
+	</script>
+
+    <script>
+      (function () {
+        if (!location.port) {
+          (function (i, s, o, g, r, a, m) {
+            i["GoogleAnalyticsObject"] = r;
+            (i[r] =
+              i[r] ||
+              function () {
+                (i[r].q = i[r].q || []).push(arguments);
+              }),
+              (i[r].l = 1 * new Date());
+            (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m);
+          })(
+            window,
+            document,
+            "script",
+            "../../www.google-analytics.com/analytics.js"/*tpa=https://www.google-analytics.com/analytics.js*/,
+            "ga"
+          );
+          ga("create", "UA-149864185-1", "auto");
+          ga("send", "pageview");
+        }
+      })();
+    </script>
+    <script src="../umi.js" tppabs="https://umijs.org/umi.js"></script>
+  </body>
+</html>
